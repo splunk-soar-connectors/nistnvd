@@ -31,7 +31,6 @@
             "action": "test connectivity",
             "identifier": "test_connectivity",
             "description": "Validate the asset configuration for connectivity using supplied configuration",
-            "verbose": "",
             "type": "test",
             "read_only": true,
             "parameters": {},
@@ -42,7 +41,6 @@
             "action": "cve lookup",
             "identifier": "cve_lookup",
             "description": "Query NVD for specific CVE ID",
-            "verbose": "",
             "type": "generic",
             "read_only": false,
             "parameters": {
@@ -123,8 +121,12 @@
                 {
                     "data_path": "action_result.status",
                     "data_type": "string",
-                    "column_name": "status",
-                    "column_order": 11
+                    "column_name": "Status",
+                    "column_order": 11,
+                    "example_values": [
+                        "success",
+                        "failed"
+                    ]
                 },
                 {
                     "data_path": "action_result.message",
