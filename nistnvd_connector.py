@@ -190,9 +190,6 @@ class NistNvdConnector(BaseConnector):
         self.save_progress("Test Connectivity Passed")
         return action_result.set_status(phantom.APP_SUCCESS)
 
-        # For now return Error with a message, in case of success we don't set the message, but use the summary
-        return action_result.set_status(phantom.APP_ERROR, "Action not yet implemented")
-
     def _handle_cve_lookup(self, param):
         # Implement the handler here
         # use self.save_progress(...) to send progress messages back to the platform
