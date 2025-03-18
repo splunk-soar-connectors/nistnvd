@@ -10,7 +10,7 @@
     "python_version": "3",
     "product_version_regex": ".*",
     "publisher": "Trisha Pancho",
-    "license": "Copyright (c) Trisha Pancho, 2023",
+    "license": "Copyright (c) Trisha Pancho, 2023-2025",
     "app_version": "1.0.1",
     "utctime_updated": "2023-05-15T06:38:15.300199Z",
     "package_name": "phantom_nistnvd",
