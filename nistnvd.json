@@ -10,7 +10,7 @@
     "python_version": "3",
     "product_version_regex": ".*",
     "publisher": "Trisha Pancho",
-    "license": "Copyright (c) Trisha Pancho, 2023-2025",
+    "license": "Copyright (c) Trisha Pancho, 2023-2026",
     "app_version": "1.0.1",
     "utctime_updated": "2023-05-15T06:38:15.300199Z",
     "package_name": "phantom_nistnvd",
@@ -24,6 +24,12 @@
             "data_type": "string",
             "required": true,
             "order": 0
+        },
+        "verify_server_cert": {
+            "description": "Verify server SSL certificate",
+            "data_type": "boolean",
+            "default": true,
+            "order": 1
         }
     },
     "actions": [
@@ -150,5 +156,11 @@
             },
             "versions": "EQ(*)"
         }
-    ]
+    ],
+    "pip39_dependencies": {
+        "wheel": []
+    },
+    "pip313_dependencies": {
+        "wheel": []
+    }
 }

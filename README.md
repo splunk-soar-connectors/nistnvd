@@ -1,9 +1,9 @@
 # NIST NVD
 
-Publisher: Trisha Pancho \
-Connector Version: 1.0.1 \
-Product Vendor: NIST \
-Product Name: NVD \
+Publisher: Trisha Pancho <br>
+Connector Version: 1.0.1 <br>
+Product Vendor: NIST <br>
+Product Name: NVD <br>
 Minimum Product Version: 5.3.2.88192
 
 App to query NIST for CVEs
@@ -15,17 +15,18 @@ This table lists the configuration variables required to operate NIST NVD. These
 VARIABLE | REQUIRED | TYPE | DESCRIPTION
 -------- | -------- | ---- | -----------
 **api_version** | required | string | Supported API Version |
+**verify_server_cert** | optional | boolean | Verify server SSL certificate |
 
 ### Supported Actions
 
-[test connectivity](#action-test-connectivity) - Validate the asset configuration for connectivity using supplied configuration \
+[test connectivity](#action-test-connectivity) - Validate the asset configuration for connectivity using supplied configuration <br>
 [cve lookup](#action-cve-lookup) - Query NVD for specific CVE ID
 
 ## action: 'test connectivity'
 
 Validate the asset configuration for connectivity using supplied configuration
 
-Type: **test** \
+Type: **test** <br>
 Read only: **True**
 
 #### Action Parameters
@@ -40,7 +41,7 @@ No Output
 
 Query NVD for specific CVE ID
 
-Type: **generic** \
+Type: **generic** <br>
 Read only: **False**
 
 #### Action Parameters
@@ -74,7 +75,7 @@ ______________________________________________________________________
 
 Auto-generated Splunk SOAR Connector documentation.
 
-Copyright 2025 Splunk Inc.
+Copyright 2026 Splunk Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
