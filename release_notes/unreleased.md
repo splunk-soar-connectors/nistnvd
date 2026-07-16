@@ -1,3 +1,3 @@
 **Unreleased**
 
-* Internal development tooling was refreshed for this connector.
+* TLS certificate verification is now enabled by default for NVD API requests, with an explicit asset setting to opt out when required.

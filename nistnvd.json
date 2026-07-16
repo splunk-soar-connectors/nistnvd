@@ -24,6 +24,12 @@
             "data_type": "string",
             "required": true,
             "order": 0
+        },
+        "verify_server_cert": {
+            "description": "Verify server SSL certificate",
+            "data_type": "boolean",
+            "default": true,
+            "order": 1
         }
     },
     "actions": [

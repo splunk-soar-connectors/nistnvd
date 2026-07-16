@@ -15,6 +15,7 @@ This table lists the configuration variables required to operate NIST NVD. These
 VARIABLE | REQUIRED | TYPE | DESCRIPTION
 -------- | -------- | ---- | -----------
 **api_version** | required | string | Supported API Version |
+**verify_server_cert** | optional | boolean | Verify server SSL certificate |
 
 ### Supported Actions
 
