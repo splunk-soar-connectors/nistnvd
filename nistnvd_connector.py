@@ -1,6 +1,6 @@
 # File: nistnvd_connector.py
 
-# Copyright (c) Trisha Pancho, 2023-2025
+# Copyright (c) Trisha Pancho, 2023-2026
 
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -157,7 +157,7 @@ class NistNvdConnector(BaseConnector):
 
         self.save_progress("Connecting to endpoint")
         # make rest call
-        ret_val, response = self._make_rest_call(
+        ret_val, _response = self._make_rest_call(
             "/rest/json/cves/2.0?cveId=CVE-2019-1010218", action_result, method="get", params=None, headers=None
         )
 
