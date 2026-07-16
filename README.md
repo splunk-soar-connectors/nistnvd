@@ -1,7 +1,7 @@
 # NIST NVD
 
 Publisher: Trisha Pancho <br>
-Connector Version: 1.0.1 <br>
+Connector Version: 1.0.2 <br>
 Product Vendor: NIST <br>
 Product Name: NVD <br>
 Minimum Product Version: 5.3.2.88192
